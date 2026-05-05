@@ -31,9 +31,33 @@ A simple yet powerful web-based expense tracking application that helps you mana
 
 ## How to Use
 
+### Quick Start (Easiest - No Installation Required)
+
+**Option 1: Press F5 in VS Code**
+1. Press `F5` or click the Debug button (▶️)
+2. Select "**Open Expense Tracker (Direct)**"
+3. Browser opens automatically with the app!
+
+**Option 2: Double-click the file**
+- Simply double-click `index.html` in your file explorer
+- Opens directly in your default browser
+
+**Option 3: Drag & Drop**
+- Drag `index.html` into your browser window
+
+### Advanced: Server Mode (Requires Node.js)
+
+If you want to run with a local server:
+1. Install Node.js from https://nodejs.org/
+2. Press F5 and select "**Launch Expense Tracker (Server)**"
+3. App runs on `http://localhost:3000`
+
+### Using the App
+
 1. **Open the App:**
-   - Open `index.html` in your web browser
-   - No installation or setup required!
+   - Press F5 in VS Code and select "Open Expense Tracker (Direct)", OR
+   - Double-click `index.html`, OR
+   - Drag the file into your browser
 
 2. **Add an Expense:**
    - Enter the amount
@@ -139,6 +163,38 @@ Possible improvements could include:
 ## License
 
 Free to use and modify for personal use.
+
+---
+
+## Requirements & Setup
+
+**No installation required!** 🎉
+- Just open `index.html` in any modern browser
+- Works completely offline with localStorage
+
+**Optional: For server mode**
+- Node.js (download from: https://nodejs.org/)
+- Enables running on `http://localhost:3000`
+
+## Troubleshooting
+
+**"localhost refused to connect"**
+- Node.js is not installed or server not running
+- Use the **Direct** option instead (F5 → "Open Expense Tracker (Direct)")
+
+**Server not starting**
+- Install Node.js first: https://nodejs.org/
+- Or use the direct file method
+
+**Data not saving?**
+- Clear browser cache and cookies
+- Try a different browser
+- Ensure cookies/storage is enabled in browser settings
+
+**App not loading**
+- Try refreshing the page (Ctrl+F5)
+- Check that all files are in the same folder
+- Try opening in a different browser
 
 ---
 

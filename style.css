@@ -24,9 +24,36 @@ header {
     padding: 20px;
 }
 
-header h1 {
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.header-text {
+    text-align: left;
+}
+
+.header-text h1 {
     font-size: 2.5rem;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -369,6 +396,20 @@ select:focus {
         font-size: 1.8rem;
     }
 
+    .header-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .header-text {
+        text-align: center;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+
     .budget-info {
         grid-template-columns: 1fr;
     }
@@ -412,8 +453,17 @@ select:focus {
         margin-bottom: 20px;
     }
 
-    header h1 {
+    .header-text h1 {
         font-size: 1.5rem;
+    }
+
+    .header-content {
+        gap: 10px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
     }
 
     .subtitle {

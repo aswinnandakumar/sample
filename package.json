@@ -1,0 +1,18 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "A simple yet powerful web-based expense tracking application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "expense",
+    "tracker",
+    "budget",
+    "finance"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

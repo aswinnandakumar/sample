@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open Expense Tracker (Direct)",
+            "file": "${workspaceFolder}/index.html",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Expense Tracker (Server)",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}",
+            "preLaunchTask": "Start Expense Tracker Server",
+            "postDebugTask": "Terminate All Tasks"
+        }
+    ]
+}

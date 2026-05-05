@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start Expense Tracker Server",
+            "type": "shell",
+            "command": "node",
+            "args": ["server.js"],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared"
+            },
+            "isBackground": false,
+            "problemMatcher": []
+        },
+        {
+            "label": "Start Server and Open Browser",
+            "type": "shell",
+            "command": "node",
+            "args": ["server.js"],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "new"
+            },
+            "isBackground": true,
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
