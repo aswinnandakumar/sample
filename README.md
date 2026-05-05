@@ -2,7 +2,7 @@
 
 A simple yet powerful web-based expense tracking application that helps you manage your spending and budget effectively.
 
-## Features
+## new feature
 
 ✨ **Core Features:**
 - ➕ Add expenses with amount, description, category, and date
